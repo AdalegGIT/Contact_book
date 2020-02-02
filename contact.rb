@@ -20,6 +20,13 @@ class Contact
 
   def self.all
     return @@contacts
+
+    # @@contacts.each do |contact|       
+    # puts "First Name: #{contact.first_name}"
+    # puts "Last Name: #{contact.last_name}"
+    # puts "Email: #{contact.email}"
+    # puts "Note: #{contact.note}"
+    # puts "ID: #{contact.id} \n\n"
   end
 
   def self.find(id)
